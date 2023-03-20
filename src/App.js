@@ -3,6 +3,7 @@ import Add from "./pages/Add";
 import Books from "./pages/Books";
 import Update from "./pages/Update";
 
+/*adding router component*/
 function App() {
   return (
     <div className="App">
