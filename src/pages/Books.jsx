@@ -5,13 +5,16 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 /*using axios*/
 const Books = () => {
+  /*creating a UseState and storing books inside of it*/
   const [books, setBooks] = useState([]);
 
+  /*making an API request so using async and await*/
   useEffect(() => {
     const fetchAllBooks = async () => {
       try {
-        const res = await axios.get("http://localhost:3001/books");
+        const res = await axios.get("http://localhost:3000/books");
         setBooks(res.data);
+       
       } catch (err) {
         console.log(err);
       }
@@ -23,7 +26,7 @@ const Books = () => {
 
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`http://localhost:3001/books/${id}`);
+      await axios.delete(`http://localhost:3000/books/${id}`);
       window.location.reload()
     } catch (err) {
       console.log(err);
@@ -32,6 +35,7 @@ const Books = () => {
 
   return (
     <div>
+      
       <h1>Cool Book Shop</h1>
       
       <div className="books">
