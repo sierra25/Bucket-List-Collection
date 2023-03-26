@@ -3,6 +3,7 @@ import Add from "./pages/Add";
 import Books from "./pages/Books";
 import Update from "./pages/Update";
 import NavBar from "./pages/NavBar";
+import Footer from "./pages/Footer";
 import "./style.css";
 
 
