@@ -7,7 +7,7 @@ import {Typography, AppBar, Card, CardActions, CardContent, CardMedia, CssBaseli
 import CameraIcon from '@mui/icons-material/PhotoCamera';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
-
+/*adding copyright to footer*/
 function Copyright() {
     return (
       <Typography variant="body2" color="text.secondary" align="center">
