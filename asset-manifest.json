@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.71392d3f.css",
-    "main.js": "/static/js/main.ff025f31.js",
-    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
-    "index.html": "/index.html",
-    "main.71392d3f.css.map": "/static/css/main.71392d3f.css.map",
-    "main.ff025f31.js.map": "/static/js/main.ff025f31.js.map",
-    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+    "main.css": "/sierra25/Bucket-List-Collection/static/css/main.71392d3f.css",
+    "main.js": "/sierra25/Bucket-List-Collection/static/js/main.41d9f9b8.js",
+    "static/js/787.cda612ba.chunk.js": "/sierra25/Bucket-List-Collection/static/js/787.cda612ba.chunk.js",
+    "index.html": "/sierra25/Bucket-List-Collection/index.html",
+    "main.71392d3f.css.map": "/sierra25/Bucket-List-Collection/static/css/main.71392d3f.css.map",
+    "main.41d9f9b8.js.map": "/sierra25/Bucket-List-Collection/static/js/main.41d9f9b8.js.map",
+    "787.cda612ba.chunk.js.map": "/sierra25/Bucket-List-Collection/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.71392d3f.css",
-    "static/js/main.ff025f31.js"
+    "static/js/main.41d9f9b8.js"
   ]
 }
