@@ -9,6 +9,7 @@ import "./style.css";
 
 
 /*adding router component*/
+/*changed BrowserRouter to HashRouter*/
 function App() {
   return (
     <div className="App">
