@@ -8,7 +8,7 @@ import "./style.css";
 
 
 
-/*adding component*/
+/*adding components to website*/
 /*changed BrowserRouter to HashRouter*/
 function App() {
   return (
